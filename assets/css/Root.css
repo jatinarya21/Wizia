@@ -1,0 +1,95 @@
+:root {
+    /* text color */
+    --text-primary: #000;
+    --text-secondary: #fff;
+    --text-orange: #FF550D;
+    --text-blue: #5AB0FF;
+    --text-green: #A8DD01;
+    --text-gray: #777777;
+    --text-matte-black: #363532;
+    /* bg color */
+    --bg-orange: #FF550D;
+    --bg-black: #0c0c0c;
+    /* font size */
+    --text-xs: 12px;
+    --text-sm: 14px;
+    --text-base: 16px;
+    --text-lg: 18px;
+    --text-5xl: 76px;
+    --text-4xl: 50px;
+    --text-3xl: 40px;
+    --text-2xl: 24px;
+    --text-xl: 20px;
+}
+
+.text-black {
+    color: var(--text-primary);
+}
+
+.text-orange {
+    color: var(--text-orange);
+}
+
+.text-white {
+    color: var(--text-secondary);
+}
+
+.text-green {
+    color: var(--text-green);
+}
+
+.text-gray {
+    color: var(--text-gray);
+}
+
+.text-matte {
+    color: var(--text-matte-black);
+}
+
+.text-blue {
+    color: var(--text-blue);
+}
+
+.bg-black {
+    background-color: var(--bg-black);
+}
+
+.bg-orange {
+    background-color: var(--bg-orange);
+}
+
+.text-sm {
+    font-size: var(--text-sm);
+}
+
+.text-xs {
+    font-size: var(--text-xs);
+}
+
+.text-base {
+    font-size: var(--text-base);
+}
+
+.text-lg {
+    font-size: var(--text-lg);
+}
+
+.text-xl {
+    font-size: var(--text-xl);
+}
+
+.text-2xl {
+    font-size: var(--text-2xl);
+}
+
+.text-3xl {
+    font-size: var(--text-3xl);
+}
+
+.text-4xl {
+    font-size: var(--text-4xl);
+}
+
+.text-5xl {
+    font-size: var(--text-5xl);
+}

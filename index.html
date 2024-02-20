@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wizia</title>
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <link rel="stylesheet" href="./assets/css/Root.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="min-h-screen d-flex flex-column">
+        <nav class="">
+            <div class="container">
+                <div class="d-flex align-items-center justify-content-between Nav-Bar">
+                    <img src="./assets/images/png/Header-logo.png" width="109px" height="22px" alt="">
+                    <div class="d-flex align-items-center">
+                        <a href="" class="header-btn text-black ff-inter text-sm font-bold">Book a demo</a>
+                        <ul id="NavBar" class="d-flex Nav">
+                            <li><a href="">Home</a></li>
+                            <li><a href="">About Us</a></li>
+                            <li><a href="">Contact Us</a></li>
+                        </ul>
+                        <label onclick="openNav()" for="menu-box" class="nav-menu-btn ">
+                            <span class="nav-menu-line"></span>
+                            <span class="nav-menu-line"></span>
+                        </label>
+                        <input type="checkbox" id="menu-box" hidden>
+                    </div>
+
+                </div>
+
+            </div>
+        </nav>
+        <div class="hero-bg flex-column d-flex justify-content-center position-relative">
+            <div class="container">
+                <div class="d-flex flex-column align-items-center justify-content-center hero-margin">
+                    <img class="hero-img" width="310px" height="310px" src="./assets/images/png/hero-image.png" alt="">
+                    <h1 class="text-white ff-inter font-bold font-italic text-4xl text-center hero-heading ">End-to-end,
+                        automated
+                        prospecting,
+                        24/7.</h1>
+                    <p class="text-center text-white ff-inter hero-subline text-xs font-regular">Train Wizia on your
+                        ideal
+                        customer profile.
+                        Activate
+                        it on a
+                        segment. It will send personalized sequences to every
+                        target contact.</p>
+                    <a href="" class="text-white bg-orange hero-btn">Book a demo</a>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- how it works -->
+    <section>
+        <div class="container">
+            <div class=" d-flex flex-column justify-content-center align-items-center">
+                <p class="text-orange ff-inter font-bold  section-2-heading">How it works</p>
+                <h2 class="ff-inter text-lg text-black font-bold section-2-subline text-center">Wizia handles the entire
+                    prospecting workflow — and
+                    your always
+                    in control</h2>
+                <div class="row card-margin">
+                    <div class="col-3">
+                        <img src="./assets/images/svg/prospect-sourcing.svg" alt="">
+                        <h2 class="ff-inter font-bold text-sm work-card-heading">Prospect sourcing</h2>
+                        <p class="text-gray ff-inter text-xs font-regular work-card-para">After “training” on your
+                            business and
+                            your
+                            Ideal Customer
+                            Profile,
+                            Wizia
+                            finds the best
+                            accounts and contacts for
+                            outreach.</p>
+                    </div>
+                    <div class="col-3">
+                        <img src="./assets/images/svg/research-icon.svg" alt="">
+                        <h2 class="ff-inter font-bold text-sm work-card-heading">Research</h2>
+                        <p class="text-matte ff-inter text-xs font-regular work-card-para">Wizia learns the needs and
+                            pain points for every lead and maps them to your most relevant value propositions.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="./assets/images/svg/message-icon.svg" alt="">
+                        <h2 class="ff-inter font-bold text-sm work-card-heading">Personalized messaging</h2>
+                        <p class="text-gray ff-inter text-xs font-regular work-card-para">Wizia learns the needs and
+                            pain points for every lead and maps them to your most relevant value propositions.
+                        </p>
+                    </div>
+                    <div class="col-3">
+                        <img src="./assets/images/svg/email-icon.svg" alt="">
+                        <h2 class="ff-inter font-bold text-sm work-card-heading">Email delivery</h2>
+                        <p class="text-gray ff-inter text-xs font-regular work-card-para">We’ll handle the details of
+                            your email infrastructure to ensure delivery. Replies are routed to humans.
+                        </p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Meet the team -->
+    <div class=" team-heading  d-flex flex-column align-items-center ">
+        <h1 class="text-blue text-3xl fst-italic fw-bold text-center">Designed by sales experts for sales leaders</h1>
+        <a class="underline text-gray ff-inter text-center team-link" href=""><u>Meet the team</u></a>
+    </div>
+    <!-- prospecting re-invented -->
+    <section>
+        <div class="container container-main prospecting-bg">
+            <div class="d-flex flex-column align-items-center">
+                <h1 class="ff-inter text-orange fw-bold prospecting-heading">Prospecting re-invented</h1>
+                <p class="ff-inter fw-bold text-lg text-black prospecting-subline">10x your outbound performance with
+                    AI-Sales Reps</p>
+            </div>
+            <div class="row justify-content-center gap-5 prospecting-card-padding">
+                <div class="col-3">
+                    <img src="./assets/images/svg/control-icon.svg" alt="">
+                    <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">You’re in control </h2>
+                    <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Wizia operates based on
+                        your
+                        rules. You guide the tool, the AI-Reps execute the work.</p>
+                </div>
+                <div class="col-3">
+                    <img src="./assets/images/svg/scalable.svg" alt="">
+                    <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">Infinitely scalable</h2>
+                    <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Train an AI-Rep on a
+                        segment. When
+                        you are happy with the results, scale it effortlessly.</p>
+                </div>
+                <div class="col-3">
+                    <img src="./assets/images/svg/flexible-icon.svg" alt="">
+                    <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">Incredibly flexible</h2>
+                    <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Train an AI-Rep on an
+                        outbound
+                        segment, to nurture inbound leads, or to contact your long tail of SMB customers at
+                        renewal time.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- former cmo quote -->
+    <div class="quote-margin position-relative">
+        <div class="container container-main ">
+            <div class="bg-black rounded d-flex justify-content-center flex-column align-items-center quote-padding">
+                <img class="position-absolute quote-img" width="129px" height="182px"
+                    src="./assets/images/png/quote-img.png" alt="">
+                <h1 class="text-white ff-inter fst-italic text-2xl fw-bold quote-heading text-center ">“I can’t see
+                    going
+                    back to the old
+                    model...
+                    Wizia
+                    really is the future of outbound.”
+                </h1>
+                <p class="text-center text-white ff-inter quote-former"><span class="fw-bold d-block">Brian
+                        Goldfarb</span>
+                    Former CMO, Tenable</p>
+            </div>
+        </div>
+    </div>
+    <!-- cards human vs ai -->
+    <div class="mt-5 pt-5">
+        <div class="container container-main">
+            <div class="row justify-content-center">
+                <div class="col-5 d-flex justify-content-end">
+                    <div class="human-card">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <h1 class="ff-inter text-xs  "><span class="fw-bold">Human-dependant</span>
+                                outbound
+                                prospecting
+                                is broken.</h1>
+                            <img width="80px" height="23px" src="./assets/images/png/human-dependent-im.png" alt="">
+                        </div>
+                        <span class="border border-1 bg-black d-flex border-black mt-3 mb-4"></span>
+
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/cross-circle.svg" alt=""> Expensive
+                            to
+                            scale</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/cross-circle.svg" alt=""> Difficult
+                            to
+                            train & control</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/cross-circle.svg" alt="">Personalizaion
+                            is time consuming</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/cross-circle.svg" alt="">Metrics are
+                            high-level only</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/cross-circle.svg" alt="">Experiments
+                            require coordination</li>
+                        <li class="d-flex gap-3 mt-3 "><img width="24" height="24"
+                                src="./assets/images/svg/cross-circle.svg" alt="">Tedious,
+                            boring
+                            work</li>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <div class="human-card">
+                        <div class="d-flex flex-column align-items-center justify-content-center">
+                            <h1 class="ff-inter text-xs  "><span class="fw-bold">AI-powered</span>
+                                outbound improves every dimension</h1>
+                            <img width="82px" height="26px" src="./assets/images/png/Ai-powered.png" alt="">
+                        </div>
+                        <span class="border border-1 bg-black d-flex border-black mt-3 mb-4"></span>
+
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/green-check.svg" alt="">
+                            Expensive
+                            to
+                            scale</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/green-check.svg" alt="">
+                            Difficult
+                            to
+                            train & control</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/green-check.svg" alt="">Personalizaion
+                            is time consuming</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/green-check.svg" alt="">Metrics are
+                            high-level only</li>
+                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
+                                src="./assets/images/svg/green-check.svg" alt="">Experiments
+                            require coordination</li>
+                        <li class="d-flex gap-3 mt-3 "><img width="24" height="24"
+                                src="./assets/images/svg/green-check.svg" alt="">Tedious,
+                            boring
+                            work</li>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- impact section -->
+    <section class="mt-5 pt-5">
+        <div class="container container-main">
+            <div class="d-flex flex-column justify-content-center align-items-center">
+                <h1 class="ff-inter text-orange impact-heading fw-bold ">Impact</h1>
+                <p class="ff-inter text-black text-lg fw-bold text-center impact-subline">Spend less time slogging
+                    through email and more time
+                    building
+                    relationships</p>
+            </div>
+            <div class="row justify-content-between  mt-2">
+                <div class="col-3 d-flex flex-column align-items-end justify-content-end">
+                    <h1 class="text-green text-5xl fw-normal ">30%</h1>
+                    <p class="text-gray impact-para text-center">Improvement in open rates</p>
+                </div>
+                <div class="col-3 d-flex flex-column justify-content-center align-items-center">
+                    <h1 class="text-green text-5xl fw-normal ">75%</h1>
+                    <p class="text-gray impact-para text-center">Improvement in ramp time</p>
+                </div>
+                <div class="col-3 d-flex flex-column align-items-start justify-content-start">
+                    <h1 class="text-green text-5xl fw-normal ">35%</h1>
+                    <p class="text-gray impact-para text-center">Improvement in meetings booked</p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- Accordion FAQ -->
+    <section class="pt-5 mt-5">
+        <div class="container container-main d-flex align-items-center flex-column faq-bg">
+            <h1 class="ff-inter fw-bold text-base text-center">FAQ</h1>
+            <div class="accordion accordion-flush" id="accordionFlushExample">
+                <div class="accordion-item">
+                    <h2 class="accordion-header " id="flush-headingOne">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseOne" aria-expanded="false" aria-controls="flush-collapseOne">
+                            How does Wizia handle contact searching? What tools do you use?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseOne" class="accordion-collapse collapse" aria-labelledby="flush-headingOne"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the
+                            <code>.accordion-flush</code> class. This is the first item's accordion body.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingTwo">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseTwo" aria-expanded="false" aria-controls="flush-collapseTwo">
+                            Do you offer a pilot?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseTwo" class="accordion-collapse collapse" aria-labelledby="flush-headingTwo"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the
+                            <code>.accordion-flush</code> class. This is the second item's accordion body. Let's imagine
+                            this
+                            being
+                            filled with some actual content.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseThree" aria-expanded="false"
+                            aria-controls="flush-collapseThree">
+                            How hands-on do we need to be?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseThree" class="accordion-collapse collapse"
+                        aria-labelledby="flush-headingThree" data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at
+                            first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+                <div class="accordion-item">
+                    <h2 class="accordion-header" id="flush-headingThree">
+                        <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                            data-bs-target="#flush-collapseFour" aria-expanded="false"
+                            aria-controls="flush-collapseFour">
+                            Pricing?
+                        </button>
+                    </h2>
+                    <div id="flush-collapseFour" class="accordion-collapse collapse" aria-labelledby="flush-headingFour"
+                        data-bs-parent="#accordionFlushExample">
+                        <div class="accordion-body">Placeholder content for this accordion, which is intended to
+                            demonstrate
+                            the
+                            <code>.accordion-flush</code> class. This is the third item's accordion body. Nothing more
+                            exciting
+                            happening here in terms of content, but just filling up the space to make it look, at least
+                            at
+                            first
+                            glance, a bit more representative of how this would look in a real-world application.
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script>
+        function openNav() {
+            document.getElementById("NavBar").classList.toggle("right-0")
+            document.body.classList.toggle("overflow-hidden")
+        }
+    </script>
+</body>
+
+</html>

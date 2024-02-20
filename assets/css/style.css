@@ -1,0 +1,278 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none !important;
+    list-style: none;
+}
+
+u {
+    text-decoration: underline !important;
+}
+
+.ff-inter {
+    font-family: "Inter", sans-serif;
+}
+
+.container-main {
+    max-width: 1280px !important;
+}
+
+.min-h-screen {
+    height: 100vh;
+}
+
+
+.header-btn {
+    border: 3px solid #FF550D;
+    border-radius: 25px;
+    padding-top: 6px;
+    padding-bottom: 6px;
+    padding-left: 18px;
+    padding-right: 19px;
+    margin-right: 20px;
+}
+
+.Nav-Bar {
+    padding-top: 15px;
+    padding-bottom: 14px;
+}
+
+.nav-menu-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+    justify-content: end;
+    gap: 4px;
+    z-index: 1;
+}
+
+.nav-menu-line {
+    background: #2C2627;
+    width: 27px;
+    height: 4px;
+    display: flex;
+    border-radius: 500px;
+}
+
+.hero-bg {
+    background-image: url(../images/png/Hero-section-bg.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    flex-grow: 1;
+}
+
+.hero-img {
+    position: absolute;
+    top: -55px;
+    left: 41%;
+}
+
+.hero-heading {
+    line-height: 52px;
+    width: 80%;
+    padding-top: 80px;
+}
+
+.hero-subline {
+    line-height: 20.9px;
+    width: 38%;
+    padding-top: 24px;
+}
+
+.hero-btn {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 41.5px;
+    padding-right: 42px;
+    border: none;
+    border-radius: 30px;
+    margin-top: 50px;
+}
+
+.Nav {
+    width: 320px;
+    position: fixed;
+    right: -320px;
+    background: white;
+    flex-direction: column;
+    height: 100vh;
+    top: 0;
+    align-items: center;
+    justify-content: center;
+    z-index: 1;
+    gap: 25px;
+    transition: all 500ms;
+}
+
+.right-0 {
+    right: 0;
+}
+
+.overflow-hidden {
+    overflow: hidden;
+}
+
+.section-2-heading {
+    font-size: 10px;
+    padding-top: 8px;
+}
+
+.section-2-subline {
+    line-height: 26px;
+    width: 34%;
+}
+
+.work-card-heading {
+    line-height: 14px;
+    padding-top: 4px;
+}
+
+.work-card-para {
+    padding-right: 50px;
+}
+
+.card-margin {
+    padding-top: 80px;
+}
+
+.team-heading {
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 50px;
+}
+
+.team-link {
+    font-size: 11px;
+    line-height: 16px;
+    padding-bottom: 56px;
+}
+
+.prospecting-heading {
+    font-size: 10px;
+    padding-top: 24px;
+}
+
+.prospecting-subline {
+    line-height: 19px;
+}
+
+.prospecting-card-para {
+    width: 79%;
+}
+
+.prospecting-card-padding {
+    padding-top: 80px;
+}
+
+.quote-heading {
+    line-height: 31px;
+    width: 40%;
+}
+
+.quote-former {
+    font-size: 10px;
+    line-height: 13px;
+    ;
+}
+
+.quote-padding {
+    padding-top: 100px;
+    padding-bottom: 85px;
+}
+
+.quote-margin {
+    margin-top: 80px;
+}
+
+.quote-img {
+    top: -60px;
+}
+
+.human-card {
+    border-radius: 8px;
+    padding-top: 15px;
+    padding-bottom: 14px;
+    padding-left: 12px;
+    padding-right: 12px;
+    box-shadow: 0px 4px 4px 0px #000;
+    width: 362px;
+}
+
+.impact-heading {
+    font-size: 10px;
+    line-height: 36px;
+}
+
+.impact-subline {
+    line-height: 22px;
+    width: 30%;
+}
+
+.impact-para {
+    width: 50%;
+}
+
+.accordion-button:focus {
+    z-index: 3;
+    border-color: transparent !important;
+    outline: 0;
+    box-shadow: none !important;
+}
+
+.accordion-button:not(.collapsed) {
+    color: black !important;
+    background-color: transparent !important;
+    box-shadow: unset !important;
+}
+
+.accordion-header {
+    border-bottom: 1px solid #C4C3C0;
+}
+
+.accordion-button {
+    font-size: 11px !important;
+    padding: 0 !important;
+    padding-right: 10px !important;
+    padding-bottom: 15px !important;
+    padding-top: 15px !important;
+    font-family: "Inter", sans-serif !important;
+}
+
+.accordion {
+    width: 460px !important;
+}
+
+.accordion-button::after {
+    background-image: url(../images/svg/accordion-arrow.svg) !important;
+    background-size: 100% 100% !important;
+    height: 10px !important;
+    width: 6px !important;
+}
+
+.accordion-button.collapsed::after {
+    height: 10px !important;
+    width: 6px !important;
+}
+
+.accordion-body {
+    font-size: 10px !important;
+    font-family: "Inter", sans-serif !important;
+    padding: 0 !important;
+    padding-top: 10px !important;
+    padding-bottom: 10px !important;
+}
+
+.faq-bg {
+    background-color: #F8F7F3;
+    border-radius: 5px;
+}
+
+.prospecting-bg {
+    border-radius: 5px;
+    box-shadow: 0px 0px 9.2px 1px #6B6B6B;
+}
