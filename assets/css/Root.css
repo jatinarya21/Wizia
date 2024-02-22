@@ -93,6 +93,15 @@
 .text-5xl {
     font-size: var(--text-5xl);
 }
+.lh-19{
+    line-height: 19px;
+}
+.lh-11{
+    line-height: 11px;
+}
+.lh-16{
+    line-height: 16px;
+}
 
 @media (min-width:576px) {
     :root {

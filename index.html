@@ -17,14 +17,16 @@
 
 <body>
     <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
-    <section class="min-h-screen d-flex flex-column">
+    <section class=" d-flex flex-column">
         <nav class="">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between Nav-Bar">
-                    <a href=""><img class="z-2 position-relative" src="./assets/images/png/Header-logo.png"
+                    <a href=""><img class="z-2 position-relative" src="./assets/images/svg/Header-logo.svg"
                             width="109px" height="22px" alt=""></a>
                     <div class="d-flex align-items-center">
-                        <a href="" class="header-btn text-black ff-inter text-sm fw-bold fill-hover">Book a demo</a>
+                        <a href="#"
+                            class="header-btn text-black ff-inter text-sm fw-bold fill-hover d-none d-md-block">Book a
+                            demo</a>
                         <ul id="NavBar" class="d-flex Nav">
                             <li><a onclick="openNav()" class="text-black ff-inter fw-bold hover" href="#home">Home</a>
                             </li>
@@ -32,6 +34,9 @@
                                     Us</a></li>
                             <li><a onclick="openNav()" class="text-black ff-inter fw-bold hover" href="#started">Contact
                                     Us</a></li>
+                            <a href="#" class="header-btn text-black ff-inter text-sm fw-bold fill-hover d-md-none">Book
+                                a
+                                demo</a>
                         </ul>
                         <label onclick="openNav()" for="menu-box" class="nav-menu-btn ">
                             <span class="nav-menu-line"></span>
@@ -44,10 +49,10 @@
 
             </div>
         </nav>
-        <div id="hero" class="hero-bg flex-column d-flex justify-content-center position-relative">
+        <div id="hero" class="hero-bg flex-column hero-padding d-flex justify-content-center position-relative">
             <div class="container">
                 <div class="d-flex flex-column align-items-center justify-content-center hero-margin">
-                    <img class="hero-img" width="310px" height="310px" src="./assets/images/png/hero-image.png" alt="">
+                    <img class="hero-img" width="310px" height="310px" src="./assets/images/svg/hero-img.svg" alt="">
                     <h1 class="text-white ff-inter fw-bold font-italic text-4xl text-center hero-heading ">End-to-end,
                         automated
                         prospecting,
@@ -59,7 +64,7 @@
                         it on a
                         segment. It will send personalized sequences to every
                         target contact.</p>
-                    <a href="" class="text-white bg-orange hero-btn hover-btn">Book a demo</a>
+                    <a href="#" class="text-white bg-orange ff-inter hero-btn hover-btn">Book a demo</a>
                 </div>
             </div>
         </div>
@@ -73,12 +78,14 @@
                     prospecting workflow — and
                     your always
                     in control</h2>
-                <div class="row card-margin  ">
-                    <div class="col-md-6 col-lg-3 position-relative ">
+                <div class="row card-margin align-items-center justify-content-center  ">
+                    <div class="col-8 col-md-6 col-lg-3 position-relative ">
                         <h1 class="ff-inter bg-text-work-same bg-text-work position-absolute ">1</h1>
-                        <img src="./assets/images/svg/prospect-sourcing.svg" alt="">
+                        <img class="how-it-icon" width="50px" height="50px"
+                            src="./assets/images/svg/prospect-sourcing.svg" alt="">
                         <h2 class="ff-inter fw-bold text-sm work-card-heading">Prospect sourcing</h2>
-                        <p class="text-gray ff-inter text-xs font-regular work-card-para">After “training” on your
+                        <p class="text-gray ff-inter text-xs font-regular lh-16 pt-1 work-card-para">After “training” on
+                            your
                             business and
                             your
                             Ideal Customer
@@ -88,27 +95,36 @@
                             accounts and contacts for
                             outreach.</p>
                     </div>
-                    <div class="col-md-6 col-lg-3 position-relative">
+                    <div class="col-8 col-md-6 col-lg-3  position-relative">
                         <h1 class="ff-inter bg-text-work-same bg-text-work-2 position-absolute ">2</h1>
-                        <img src="./assets/images/svg/research-icon.svg" alt="">
+                        <img class="how-it-icon" width="50px" height="50px" src="./assets/images/svg/research-icon.svg"
+                            alt="">
                         <h2 class="ff-inter fw-bold text-sm work-card-heading">Research</h2>
-                        <p class="text-matte ff-inter text-xs font-regular work-card-para">Wizia learns the needs and
+                        <p class="text-matte ff-inter text-xs font-regular lh-16 pt-1 work-card-para">Wizia learns the
+                            needs
+                            and
                             pain points for every lead and maps them to your most relevant value propositions.
                         </p>
                     </div>
-                    <div class="col-md-6 col-lg-3 position-relative pt-5 pt-lg-0">
+                    <div class="col-8 col-md-6 col-lg-3 position-relative pt-5 pt-lg-0">
                         <h1 class="ff-inter bg-text-work-same bg-text-work-3 position-absolute ">3</h1>
-                        <img src="./assets/images/svg/message-icon.svg" alt="">
+                        <img class="how-it-icon" width="50px" height="50px" src="./assets/images/svg/message-icon.svg"
+                            alt="">
                         <h2 class="ff-inter fw-bold text-sm work-card-heading">Personalized messaging</h2>
-                        <p class="text-gray ff-inter text-xs font-regular work-card-para">Wizia learns the needs and
+                        <p class="text-gray ff-inter text-xs font-regular lh-16 pt-1 work-card-para">Wizia learns the
+                            needs
+                            and
                             pain points for every lead and maps them to your most relevant value propositions.
                         </p>
                     </div>
-                    <div class="col-md-6 col-lg-3 position-relative pt-5 pt-lg-0">
+                    <div class="col-8 col-md-6 col-lg-3 position-relative pt-5 pt-lg-0">
                         <h1 class="ff-inter bg-text-work-same bg-text-work-4 position-absolute ">4</h1>
-                        <img src="./assets/images/svg/email-icon.svg" alt="">
+                        <img class="how-it-icon" width="50px" height="50px" src="./assets/images/svg/email-icon.svg"
+                            alt="">
                         <h2 class="ff-inter fw-bold text-sm work-card-heading">Email delivery</h2>
-                        <p class="text-gray ff-inter text-xs font-regular work-card-para">We’ll handle the details of
+                        <p class="text-gray ff-inter text-xs font-regular lh-16 pt-1 work-card-para">We’ll handle the
+                            details
+                            of
                             your email infrastructure to ensure delivery. Replies are routed to humans.
                         </p>
                     </div>
@@ -117,42 +133,54 @@
         </div>
     </section>
     <!-- Meet the team -->
-    <div class=" team-heading  d-flex flex-column align-items-center mt-md-5 pt-md-5 ">
+    <div class=" team-heading  d-flex flex-column align-items-center mt-lg-5 pt-md-5 ">
         <h1 class="text-blue text-3xl fst-italic fw-bold text-center team-line">Designed by sales experts for sales
             leaders</h1>
         <a class="underline text-gray ff-inter text-center team-link" href=""><u>Meet the team</u></a>
     </div>
     <!-- prospecting re-invented -->
     <section>
-        <div class="container container-main prospecting-bg">
-            <div class="d-flex flex-column align-items-center">
-                <h1 class="ff-inter text-orange  fw-bold prospecting-heading">Prospecting re-invented</h1>
-                <p class="ff-inter fw-bold text-lg text-center text-black prospecting-subline">10x your outbound
-                    performance with
-                    AI-Sales Reps</p>
-            </div>
-            <div class="row justify-content-center gap-lg-5 prospecting-card-padding">
-                <div class="col-11 pt-4 col-sm-5 col-lg-3">
-                    <img src="./assets/images/svg/control-icon.svg" alt="">
-                    <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">You’re in control </h2>
-                    <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Wizia operates based on
+        <div class="container container-main ">
+            <div class="prospecting-bg">
+                <div class="d-flex flex-column align-items-center">
+                    <h1 class="ff-inter text-orange  fw-bold prospecting-heading">Prospecting re-invented</h1>
+                    <p class="ff-inter fw-bold text-lg text-center text-black lh-19 text-lg prospecting-subline">10x
                         your
-                        rules. You guide the tool, the AI-Reps execute the work.</p>
-                </div>
-                <div class="col-11 pt-4 col-sm-5 col-lg-3">
-                    <img src="./assets/images/svg/scalable.svg" alt="">
-                    <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">Infinitely scalable</h2>
-                    <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Train an AI-Rep on a
-                        segment. When
-                        you are happy with the results, scale it effortlessly.</p>
-                </div>
-                <div class="col-11 pt-4 col-sm-5 col-lg-3 pt-3 pt-lg-0">
-                    <img src="./assets/images/svg/flexible-icon.svg" alt="">
-                    <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">Incredibly flexible</h2>
-                    <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Train an AI-Rep on an
                         outbound
-                        segment, to nurture inbound leads, or to contact your long tail of SMB customers at
-                        renewal time.</p>
+                        performance with
+                        AI-Sales Reps</p>
+                </div>
+                <div class="row justify-content-center align-items-center gap-lg-5 prospecting-card-padding">
+                    <div class="col-8 d-flex flex-column align-items-center align-items-lg-start   col-sm-5 col-lg-3">
+                        <img src="./assets/images/svg/control-icon.svg" alt="">
+                        <h2 class="ff-inter fw-bold text-sm  lh-16 pb-1 pt-2">You’re in control </h2>
+                        <p class="text-gray ff-inter  font-regular prospecting-card-para text-center  text-lg-start">
+                            Wizia operates
+                            based on
+                            your
+                            rules. You guide the tool, the AI-Reps execute the work.</p>
+                    </div>
+                    <div
+                        class="col-8 d-flex flex-column align-items-center align-items-lg-start   col-sm-5 col-lg-3 pt-3 pt-md-0  ">
+                        <img src="./assets/images/svg/scalable.svg" alt="">
+                        <h2 class="ff-inter fw-bold text-sm  lh-16 pb-1 pt-2">Infinitely scalable</h2>
+                        <p class="text-gray ff-inter  font-regular prospecting-card-para text-center  text-lg-start">
+                            Train an AI-Rep
+                            on a
+                            segment. When
+                            you are happy with the results, scale it effortlessly.</p>
+                    </div>
+                    <div
+                        class="col-8 d-flex flex-column align-items-center align-items-lg-start  pt-4 col-sm-5 col-lg-3 pt-3 pt-lg-0">
+                        <img src="./assets/images/svg/flexible-icon.svg" alt="">
+                        <h2 class="ff-inter fw-bold text-sm  lh-16 pb-1 pt-2">Incredibly flexible</h2>
+                        <p class="text-gray ff-inter  font-regular prospecting-card-para text-center  text-lg-start">
+                            Train an AI-Rep
+                            on an
+                            outbound
+                            segment, to nurture inbound leads, or to contact your long tail of SMB customers at
+                            renewal time.</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -163,8 +191,8 @@
             <div
                 class="bg-black rounded d-flex justify-content-center quote-box flex-column align-items-center quote-padding">
                 <img class="position-absolute quote-img" width="129px" height="182px"
-                    src="./assets/images/png/quote-img.png" alt="">
-                <h1 class="text-white ff-inter fst-italic text-2xl fw-bold quote-heading text-center ">“I can’t see
+                    src="./assets/images/svg/quote-img.svg" alt="">
+                <h1 class="text-white ff-inter fst-italic text-2xl fw-bold quote-heading text-center pb-2 ">“I can’t see
                     going
                     back to the old
                     model...
@@ -178,73 +206,73 @@
         </div>
     </div>
     <!-- cards human vs ai -->
-    <div class="mt-md-5 pt-md-5">
+    <div class="mt-lg-4 pt-md-5">
         <div class="container container-main">
             <div class="row align-items-center d-flex justify-content-center">
                 <div class="col-sm-5 ">
-                    <div class="human-card ms-auto me-auto ms-md-auto me-md-0">
+                    <div class="human-card human-hover ms-auto me-auto ms-md-auto me-md-0">
                         <div class="d-flex flex-column align-items-center justify-content-center">
-                            <h1 class="ff-inter text-xs  "><span class="fw-bold">Human-dependant</span>
+                            <h1 class="ff-inter text-xs text-black lh-19 "><span class="fw-bold">Human-dependant</span>
                                 outbound
                                 prospecting
                                 is broken.</h1>
-                            <img width="80px" height="23px" src="./assets/images/png/human-dependent-im.png" alt="">
+                            <img width="80px" height="23px" src="./assets/images/svg/human-dependent.svg" alt="">
                         </div>
                         <span class="border border-1 bg-black d-flex border-black mt-3 mb-4"></span>
 
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/cross-circle.svg" alt=""> Expensive
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/cross-circle.svg" alt=""> Expensive
                             to
                             scale</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/cross-circle.svg" alt=""> Difficult
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/cross-circle.svg" alt=""> Difficult
                             to
                             train & control</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/cross-circle.svg" alt="">Personalizaion
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/cross-circle.svg" alt="">Personalizaion
                             is time consuming</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/cross-circle.svg" alt="">Metrics are
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/cross-circle.svg" alt="">Metrics are
                             high-level only</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/cross-circle.svg" alt="">Experiments
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/cross-circle.svg" alt="">Experiments
                             require coordination</li>
-                        <li class="d-flex gap-3 mt-3 "><img width="24" height="27"
-                                src="./assets/images/svg/cross-circle.svg" alt="">Tedious,
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center "><img
+                                width="24" height="27" src="./assets/images/svg/cross-circle.svg" alt="">Tedious,
                             boring
                             work</li>
                     </div>
                 </div>
                 <div class="col-sm-5 mt-5 mt-sm-0">
-                    <div class="human-card-2 ms-auto me-auto ms-md-0 me-md-0">
+                    <div class="human-card-2 human-hover ms-auto me-auto ms-md-0 me-md-0">
                         <div class="d-flex flex-column align-items-center justify-content-center">
-                            <h1 class="ff-inter text-xs  "><span class="fw-bold">AI-powered</span>
+                            <h1 class="ff-inter text-xs lh-19 text-black "><span class="fw-bold">AI-powered</span>
                                 outbound improves every dimension</h1>
-                            <img width="82px" height="26px" src="./assets/images/png/Ai-powered.png" alt="">
+                            <img width="82px" height="26px" src="./assets/images/svg/ai-powered.svg" alt="">
                         </div>
                         <span class="border border-1 bg-black d-flex border-black mt-3 mb-4"></span>
 
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/green-check.svg" alt="">
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/green-check.svg " alt="">
                             Expensive
                             to
                             scale</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/green-check.svg" alt="">
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/green-check.svg " alt="">
                             Difficult
                             to
                             train & control</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/green-check.svg" alt="">Personalizaion
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/green-check.svg " alt="">Personalizaion
                             is time consuming</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/green-check.svg" alt="">Metrics are
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/green-check.svg " alt="">Metrics are
                             high-level only</li>
-                        <li class="d-flex gap-3 mt-3"><img width="24" height="24"
-                                src="./assets/images/svg/green-check.svg" alt="">Experiments
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center"><img
+                                width="24" height="24" src="./assets/images/svg/green-check.svg " alt="">Experiments
                             require coordination</li>
-                        <li class="d-flex gap-3 mt-3 "><img width="24" height="24"
-                                src="./assets/images/svg/green-check.svg" alt="">Tedious,
+                        <li class="d-flex gap-3 mt-3 text-black ff-inter text-xs lh-11 align-items-center "><img
+                                width="24" height="24" src="./assets/images/svg/green-check.svg " alt="">Tedious,
                             boring
                             work</li>
                     </div>
@@ -253,7 +281,7 @@
         </div>
     </div>
     <!-- impact section -->
-    <section class="mt-4 mt-md-5 pt-md-5 pb-lg-5">
+    <section class=" mt-lg-5 mb-lg-1 pt-5 pb-lg-5">
         <div class="container container-main">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h1 class="ff-inter text-orange impact-heading fw-bold ">Impact</h1>
@@ -265,30 +293,30 @@
             <div class="row justify-content-center align-items-center justify-content-lg-between  mt-4">
                 <div class=" col-sm-4 col-lg-3">
                     <div class=" d-flex flex-column align-items-center align-items-lg-end justify-content-lg-end">
-                        <h1 class="text-green text-5xl fw-normal ">30%</h1>
-                        <p class="text-gray impact-para text-center">Improvement in open rates</p>
+                        <h1 class="text-green  ff-inter text-5xl fw-normal ">30%</h1>
+                        <p class="text-gray impact-para text-center me-md-4">Improvement in open rates</p>
                     </div>
                 </div>
-                <div class=" col-sm-4 col-lg-3 ">
+                <div class=" col-sm-4 col-lg-3 pt-3 pt-md-0 ">
                     <div
                         class="d-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-center">
-                        <h1 class="text-green text-5xl fw-normal ">75%</h1>
+                        <h1 class="text-green ff-inter  text-5xl fw-normal ">75%</h1>
                         <p class="text-gray impact-para text-center">Improvement in ramp time</p>
                     </div>
                 </div>
-                <div class=" col-sm-4 col-lg-3 ">
+                <div class=" col-sm-4 col-lg-3 pt-3 pt-md-0 ">
                     <div class="d-flex flex-column align-items-center align-items-lg-start justify-content-lg-start">
-                        <h1 class="text-green text-5xl fw-normal ">35%</h1>
-                        <p class="text-gray impact-para text-center">Improvement in meetings booked</p>
+                        <h1 class="text-green ff-inter  text-5xl fw-normal ">35%</h1>
+                        <p class="text-gray impact-para text-center ms-md-4">Improvement in meetings booked</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Accordion FAQ -->
-    <section class="mt-5 pt-md-5 mt-md-5">
-        <div class="container container-main d-flex align-items-center flex-column pt-4 pb-5 faq-bg">
-            <h1 class="ff-inter fw-bold text-base text-center">FAQ</h1>
+    <section class="mt-5 pt-lg-4 ">
+        <div class="container container-main d-flex align-items-center flex-column pt-4 pb-lg-5 mb-lg-3 faq-bg">
+            <h1 class="ff-inter fw-bold text-base text-black text-center">FAQ</h1>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
                     <h2 class="accordion-header " id="flush-headingOne">
@@ -373,22 +401,25 @@
         </div>
     </section>
     <!-- get started -->
-    <section id="started" class="mt-md-5 pt-5 ">
+    <section id="started" class="mt-lg-5 pt-5 ">
         <div class="container container-main">
             <div class="d-flex justify-content-center align-items-center flex-column">
                 <h1 class="text-orange text-center ff-inter started-heading fw-bold">Get started</h1>
-                <p class="text-black fw-bold text-base text-center started-subline pb-2">Amperity, embrace the new era
+                <p class="text-black fw-bold ff-inter text-base text-center lh-19 pb-2">Amperity, embrace the
+                    new era
                     of
                     outbound</p>
-                <span class="text-gray ff-inter fw-normal started-para text-center">Wizia lets you train, activate, and
+                <span class="text-gray ff-inter fw-normal started-para text-center lh-16">Wizia lets you train,
+                    activate, and
                     optimize
                     AI-DRs.</span>
-                <span class="text-gray ff-inter fw-normal started-para text-center text-lg-normal">Take your outbound to
+                <span class="text-gray ff-inter fw-normal started-para text-center text-lg-normal lh-16">Take your
+                    outbound to
                     new levels of
                     performance and efficiency.</span>
                 <a class="bg-black text-white started-btn1 ff-inter text-base text-center  hover-btn-b" href="">Share
                     this page</a>
-                <a class="started-btn2 ff-inter fw-normal bg-orange text-white mb-5 hover-btn hover-btn-s"
+                <a class="started-btn2 ff-inter fw-normal bg-orange text-white mb-5 mb-md-0 mb-lg-5 hover-btn hover-btn-s"
                     href="">Schedule a full
                     demo</a>
             </div>
@@ -397,7 +428,7 @@
     <!-- footer section -->
     <section class="bg-black mt-md-5">
         <div class="container container-main">
-            <div class="row pt-5 pb-4">
+            <div class="row footer-padding pt-5 pb-4">
                 <div class="col-sm-5">
                     <a href=""><img width="52px" height="28px" src="./assets/images/png/footer-logo.png" alt=""></a>
                     <p class="footer-para ff-inter fst-italic mt-3">Wizia helps businesses grow faster by connecting
@@ -406,7 +437,7 @@
                         sellers more
                         efficiently.</p>
                 </div>
-                <div class="col-sm-4 d-flex flex-column flex-sm-row justify-content-center">
+                <div class="col-sm-4 footer-col-margin d-flex flex-column flex-sm-row justify-content-center">
                     <span class="footer-v-line d-none d-sm-block "></span>
                     <span class="footer-v-line2 d-sm-none mt-2"></span>
                     <ul class="d-flex gap-3  ms-sm-3  py-3  ">
