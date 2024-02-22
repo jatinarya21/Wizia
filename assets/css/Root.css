@@ -14,11 +14,11 @@
     --text-xs: 12px;
     --text-sm: 14px;
     --text-base: 16px;
-    --text-lg: 18px;
-    --text-5xl: 76px;
-    --text-4xl: 50px;
-    --text-3xl: 40px;
-    --text-2xl: 24px;
+    --text-lg: 16px;
+    --text-5xl: 32px;
+    --text-4xl: 22px;
+    --text-3xl: 15px;
+    --text-2xl: 16px;
     --text-xl: 20px;
 }
 
@@ -92,4 +92,46 @@
 
 .text-5xl {
     font-size: var(--text-5xl);
+}
+
+@media (min-width:576px) {
+    :root {
+        --text-xs: 12px;
+        --text-sm: 14px;
+        --text-base: 16px;
+        --text-lg: 18px;
+        --text-5xl: 42px;
+        --text-4xl: 42px;
+        --text-3xl: 26px;
+        --text-2xl: 24px;
+        --text-xl: 20px;
+    }
+}
+
+@media (min-width:992px) {
+    :root {
+        --text-xs: 12px;
+        --text-sm: 14px;
+        --text-base: 16px;
+        --text-lg: 18px;
+        --text-5xl: 76px;
+        --text-4xl: 46px;
+        --text-3xl: 40px;
+        --text-2xl: 24px;
+        --text-xl: 20px;
+    }
+}
+
+@media (min-width:1024px) {
+    :root {
+        --text-xs: 12px;
+        --text-sm: 14px;
+        --text-base: 16px;
+        --text-lg: 18px;
+        --text-5xl: 76px;
+        --text-4xl: 50px;
+        --text-3xl: 40px;
+        --text-2xl: 24px;
+        --text-xl: 20px;
+    }
 }

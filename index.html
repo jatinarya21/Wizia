@@ -12,20 +12,26 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
         crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="./assets/images/png/hero-image.png" type="image/x-icon">
 </head>
 
 <body>
+    <button onclick="topFunction()" id="myBtn" title="Go to top">&#8593;</button>
     <section class="min-h-screen d-flex flex-column">
         <nav class="">
             <div class="container">
                 <div class="d-flex align-items-center justify-content-between Nav-Bar">
-                    <img src="./assets/images/png/Header-logo.png" width="109px" height="22px" alt="">
+                    <a href=""><img class="z-2 position-relative" src="./assets/images/png/Header-logo.png"
+                            width="109px" height="22px" alt=""></a>
                     <div class="d-flex align-items-center">
-                        <a href="" class="header-btn text-black ff-inter text-sm font-bold">Book a demo</a>
+                        <a href="" class="header-btn text-black ff-inter text-sm fw-bold fill-hover">Book a demo</a>
                         <ul id="NavBar" class="d-flex Nav">
-                            <li><a href="">Home</a></li>
-                            <li><a href="">About Us</a></li>
-                            <li><a href="">Contact Us</a></li>
+                            <li><a onclick="openNav()" class="text-black ff-inter fw-bold hover" href="#home">Home</a>
+                            </li>
+                            <li><a onclick="openNav()" class="text-black ff-inter fw-bold hover" href="#work">About
+                                    Us</a></li>
+                            <li><a onclick="openNav()" class="text-black ff-inter fw-bold hover" href="#started">Contact
+                                    Us</a></li>
                         </ul>
                         <label onclick="openNav()" for="menu-box" class="nav-menu-btn ">
                             <span class="nav-menu-line"></span>
@@ -38,11 +44,11 @@
 
             </div>
         </nav>
-        <div class="hero-bg flex-column d-flex justify-content-center position-relative">
+        <div id="hero" class="hero-bg flex-column d-flex justify-content-center position-relative">
             <div class="container">
                 <div class="d-flex flex-column align-items-center justify-content-center hero-margin">
                     <img class="hero-img" width="310px" height="310px" src="./assets/images/png/hero-image.png" alt="">
-                    <h1 class="text-white ff-inter font-bold font-italic text-4xl text-center hero-heading ">End-to-end,
+                    <h1 class="text-white ff-inter fw-bold font-italic text-4xl text-center hero-heading ">End-to-end,
                         automated
                         prospecting,
                         24/7.</h1>
@@ -53,24 +59,25 @@
                         it on a
                         segment. It will send personalized sequences to every
                         target contact.</p>
-                    <a href="" class="text-white bg-orange hero-btn">Book a demo</a>
+                    <a href="" class="text-white bg-orange hero-btn hover-btn">Book a demo</a>
                 </div>
             </div>
         </div>
     </section>
     <!-- how it works -->
-    <section>
+    <section id="work">
         <div class="container">
             <div class=" d-flex flex-column justify-content-center align-items-center">
-                <p class="text-orange ff-inter font-bold  section-2-heading">How it works</p>
-                <h2 class="ff-inter text-lg text-black font-bold section-2-subline text-center">Wizia handles the entire
+                <p class="text-orange ff-inter fw-bold  section-2-heading">How it works</p>
+                <h2 class="ff-inter text-lg text-black fw-bold section-2-subline text-center">Wizia handles the entire
                     prospecting workflow — and
                     your always
                     in control</h2>
-                <div class="row card-margin">
-                    <div class="col-3">
+                <div class="row card-margin  ">
+                    <div class="col-md-6 col-lg-3 position-relative ">
+                        <h1 class="ff-inter bg-text-work-same bg-text-work position-absolute ">1</h1>
                         <img src="./assets/images/svg/prospect-sourcing.svg" alt="">
-                        <h2 class="ff-inter font-bold text-sm work-card-heading">Prospect sourcing</h2>
+                        <h2 class="ff-inter fw-bold text-sm work-card-heading">Prospect sourcing</h2>
                         <p class="text-gray ff-inter text-xs font-regular work-card-para">After “training” on your
                             business and
                             your
@@ -81,23 +88,26 @@
                             accounts and contacts for
                             outreach.</p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-6 col-lg-3 position-relative">
+                        <h1 class="ff-inter bg-text-work-same bg-text-work-2 position-absolute ">2</h1>
                         <img src="./assets/images/svg/research-icon.svg" alt="">
-                        <h2 class="ff-inter font-bold text-sm work-card-heading">Research</h2>
+                        <h2 class="ff-inter fw-bold text-sm work-card-heading">Research</h2>
                         <p class="text-matte ff-inter text-xs font-regular work-card-para">Wizia learns the needs and
                             pain points for every lead and maps them to your most relevant value propositions.
                         </p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-6 col-lg-3 position-relative pt-5 pt-lg-0">
+                        <h1 class="ff-inter bg-text-work-same bg-text-work-3 position-absolute ">3</h1>
                         <img src="./assets/images/svg/message-icon.svg" alt="">
-                        <h2 class="ff-inter font-bold text-sm work-card-heading">Personalized messaging</h2>
+                        <h2 class="ff-inter fw-bold text-sm work-card-heading">Personalized messaging</h2>
                         <p class="text-gray ff-inter text-xs font-regular work-card-para">Wizia learns the needs and
                             pain points for every lead and maps them to your most relevant value propositions.
                         </p>
                     </div>
-                    <div class="col-3">
+                    <div class="col-md-6 col-lg-3 position-relative pt-5 pt-lg-0">
+                        <h1 class="ff-inter bg-text-work-same bg-text-work-4 position-absolute ">4</h1>
                         <img src="./assets/images/svg/email-icon.svg" alt="">
-                        <h2 class="ff-inter font-bold text-sm work-card-heading">Email delivery</h2>
+                        <h2 class="ff-inter fw-bold text-sm work-card-heading">Email delivery</h2>
                         <p class="text-gray ff-inter text-xs font-regular work-card-para">We’ll handle the details of
                             your email infrastructure to ensure delivery. Replies are routed to humans.
                         </p>
@@ -107,34 +117,36 @@
         </div>
     </section>
     <!-- Meet the team -->
-    <div class=" team-heading  d-flex flex-column align-items-center ">
-        <h1 class="text-blue text-3xl fst-italic fw-bold text-center">Designed by sales experts for sales leaders</h1>
+    <div class=" team-heading  d-flex flex-column align-items-center mt-md-5 pt-md-5 ">
+        <h1 class="text-blue text-3xl fst-italic fw-bold text-center team-line">Designed by sales experts for sales
+            leaders</h1>
         <a class="underline text-gray ff-inter text-center team-link" href=""><u>Meet the team</u></a>
     </div>
     <!-- prospecting re-invented -->
     <section>
         <div class="container container-main prospecting-bg">
             <div class="d-flex flex-column align-items-center">
-                <h1 class="ff-inter text-orange fw-bold prospecting-heading">Prospecting re-invented</h1>
-                <p class="ff-inter fw-bold text-lg text-black prospecting-subline">10x your outbound performance with
+                <h1 class="ff-inter text-orange  fw-bold prospecting-heading">Prospecting re-invented</h1>
+                <p class="ff-inter fw-bold text-lg text-center text-black prospecting-subline">10x your outbound
+                    performance with
                     AI-Sales Reps</p>
             </div>
-            <div class="row justify-content-center gap-5 prospecting-card-padding">
-                <div class="col-3">
+            <div class="row justify-content-center gap-lg-5 prospecting-card-padding">
+                <div class="col-11 pt-4 col-sm-5 col-lg-3">
                     <img src="./assets/images/svg/control-icon.svg" alt="">
                     <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">You’re in control </h2>
                     <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Wizia operates based on
                         your
                         rules. You guide the tool, the AI-Reps execute the work.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-11 pt-4 col-sm-5 col-lg-3">
                     <img src="./assets/images/svg/scalable.svg" alt="">
                     <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">Infinitely scalable</h2>
                     <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Train an AI-Rep on a
                         segment. When
                         you are happy with the results, scale it effortlessly.</p>
                 </div>
-                <div class="col-3">
+                <div class="col-11 pt-4 col-sm-5 col-lg-3 pt-3 pt-lg-0">
                     <img src="./assets/images/svg/flexible-icon.svg" alt="">
                     <h2 class="ff-inter fw-bold text-sm work-card-heading pt-2">Incredibly flexible</h2>
                     <p class="text-gray ff-inter text-xs font-regular prospecting-card-para">Train an AI-Rep on an
@@ -148,7 +160,8 @@
     <!-- former cmo quote -->
     <div class="quote-margin position-relative">
         <div class="container container-main ">
-            <div class="bg-black rounded d-flex justify-content-center flex-column align-items-center quote-padding">
+            <div
+                class="bg-black rounded d-flex justify-content-center quote-box flex-column align-items-center quote-padding">
                 <img class="position-absolute quote-img" width="129px" height="182px"
                     src="./assets/images/png/quote-img.png" alt="">
                 <h1 class="text-white ff-inter fst-italic text-2xl fw-bold quote-heading text-center ">“I can’t see
@@ -165,11 +178,11 @@
         </div>
     </div>
     <!-- cards human vs ai -->
-    <div class="mt-5 pt-5">
+    <div class="mt-md-5 pt-md-5">
         <div class="container container-main">
-            <div class="row justify-content-center">
-                <div class="col-5 d-flex justify-content-end">
-                    <div class="human-card">
+            <div class="row align-items-center d-flex justify-content-center">
+                <div class="col-sm-5 ">
+                    <div class="human-card ms-auto me-auto ms-md-auto me-md-0">
                         <div class="d-flex flex-column align-items-center justify-content-center">
                             <h1 class="ff-inter text-xs  "><span class="fw-bold">Human-dependant</span>
                                 outbound
@@ -196,14 +209,14 @@
                         <li class="d-flex gap-3 mt-3"><img width="24" height="24"
                                 src="./assets/images/svg/cross-circle.svg" alt="">Experiments
                             require coordination</li>
-                        <li class="d-flex gap-3 mt-3 "><img width="24" height="24"
+                        <li class="d-flex gap-3 mt-3 "><img width="24" height="27"
                                 src="./assets/images/svg/cross-circle.svg" alt="">Tedious,
                             boring
                             work</li>
                     </div>
                 </div>
-                <div class="col-5">
-                    <div class="human-card">
+                <div class="col-sm-5 mt-5 mt-sm-0">
+                    <div class="human-card-2 ms-auto me-auto ms-md-0 me-md-0">
                         <div class="d-flex flex-column align-items-center justify-content-center">
                             <h1 class="ff-inter text-xs  "><span class="fw-bold">AI-powered</span>
                                 outbound improves every dimension</h1>
@@ -240,7 +253,7 @@
         </div>
     </div>
     <!-- impact section -->
-    <section class="mt-5 pt-5">
+    <section class="mt-4 mt-md-5 pt-md-5 pb-lg-5">
         <div class="container container-main">
             <div class="d-flex flex-column justify-content-center align-items-center">
                 <h1 class="ff-inter text-orange impact-heading fw-bold ">Impact</h1>
@@ -249,25 +262,32 @@
                     building
                     relationships</p>
             </div>
-            <div class="row justify-content-between  mt-2">
-                <div class="col-3 d-flex flex-column align-items-end justify-content-end">
-                    <h1 class="text-green text-5xl fw-normal ">30%</h1>
-                    <p class="text-gray impact-para text-center">Improvement in open rates</p>
+            <div class="row justify-content-center align-items-center justify-content-lg-between  mt-4">
+                <div class=" col-sm-4 col-lg-3">
+                    <div class=" d-flex flex-column align-items-center align-items-lg-end justify-content-lg-end">
+                        <h1 class="text-green text-5xl fw-normal ">30%</h1>
+                        <p class="text-gray impact-para text-center">Improvement in open rates</p>
+                    </div>
                 </div>
-                <div class="col-3 d-flex flex-column justify-content-center align-items-center">
-                    <h1 class="text-green text-5xl fw-normal ">75%</h1>
-                    <p class="text-gray impact-para text-center">Improvement in ramp time</p>
+                <div class=" col-sm-4 col-lg-3 ">
+                    <div
+                        class="d-flex flex-column justify-content-center align-items-center justify-content-lg-center align-items-lg-center">
+                        <h1 class="text-green text-5xl fw-normal ">75%</h1>
+                        <p class="text-gray impact-para text-center">Improvement in ramp time</p>
+                    </div>
                 </div>
-                <div class="col-3 d-flex flex-column align-items-start justify-content-start">
-                    <h1 class="text-green text-5xl fw-normal ">35%</h1>
-                    <p class="text-gray impact-para text-center">Improvement in meetings booked</p>
+                <div class=" col-sm-4 col-lg-3 ">
+                    <div class="d-flex flex-column align-items-center align-items-lg-start justify-content-lg-start">
+                        <h1 class="text-green text-5xl fw-normal ">35%</h1>
+                        <p class="text-gray impact-para text-center">Improvement in meetings booked</p>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
     <!-- Accordion FAQ -->
-    <section class="pt-5 mt-5">
-        <div class="container container-main d-flex align-items-center flex-column faq-bg">
+    <section class="mt-5 pt-md-5 mt-md-5">
+        <div class="container container-main d-flex align-items-center flex-column pt-4 pb-5 faq-bg">
             <h1 class="ff-inter fw-bold text-base text-center">FAQ</h1>
             <div class="accordion accordion-flush" id="accordionFlushExample">
                 <div class="accordion-item">
@@ -352,9 +372,52 @@
             </div>
         </div>
     </section>
-
-
-
+    <!-- get started -->
+    <section id="started" class="mt-md-5 pt-5 ">
+        <div class="container container-main">
+            <div class="d-flex justify-content-center align-items-center flex-column">
+                <h1 class="text-orange text-center ff-inter started-heading fw-bold">Get started</h1>
+                <p class="text-black fw-bold text-base text-center started-subline pb-2">Amperity, embrace the new era
+                    of
+                    outbound</p>
+                <span class="text-gray ff-inter fw-normal started-para text-center">Wizia lets you train, activate, and
+                    optimize
+                    AI-DRs.</span>
+                <span class="text-gray ff-inter fw-normal started-para text-center text-lg-normal">Take your outbound to
+                    new levels of
+                    performance and efficiency.</span>
+                <a class="bg-black text-white started-btn1 ff-inter text-base text-center  hover-btn-b" href="">Share
+                    this page</a>
+                <a class="started-btn2 ff-inter fw-normal bg-orange text-white mb-5 hover-btn hover-btn-s"
+                    href="">Schedule a full
+                    demo</a>
+            </div>
+        </div>
+    </section>
+    <!-- footer section -->
+    <section class="bg-black mt-md-5">
+        <div class="container container-main">
+            <div class="row pt-5 pb-4">
+                <div class="col-sm-5">
+                    <a href=""><img width="52px" height="28px" src="./assets/images/png/footer-logo.png" alt=""></a>
+                    <p class="footer-para ff-inter fst-italic mt-3">Wizia helps businesses grow faster by connecting
+                        buyers
+                        and
+                        sellers more
+                        efficiently.</p>
+                </div>
+                <div class="col-sm-4 d-flex flex-column flex-sm-row justify-content-center">
+                    <span class="footer-v-line d-none d-sm-block "></span>
+                    <span class="footer-v-line2 d-sm-none mt-2"></span>
+                    <ul class="d-flex gap-3  ms-sm-3  py-3  ">
+                        <li><a class="text-white ff-inter fw-normal underline" href="">TEAM</a></li>
+                        <li><a class="text-white ff-inter fw-normal underline" href="">PRICING</a></li>
+                        <li><a class="text-white ff-inter fw-normal underline" href="">CONTACT</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
 
 
     <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
@@ -367,6 +430,20 @@
         function openNav() {
             document.getElementById("NavBar").classList.toggle("right-0")
             document.body.classList.toggle("overflow-hidden")
+        }
+
+        let mybutton = document.getElementById("myBtn");
+        window.onscroll = function () { scrollFunction() };
+        function scrollFunction() {
+            if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+                mybutton.style.display = "block";
+            } else {
+                mybutton.style.display = "none";
+            }
+        }
+        function topFunction() {
+            document.body.scrollTop = 0;
+            document.documentElement.scrollTop = 0;
         }
     </script>
 </body>
