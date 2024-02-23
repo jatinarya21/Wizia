@@ -160,7 +160,7 @@ u {
 .team-link {
     font-size: 11px;
     line-height: 16px;
-    padding-bottom: 85px;
+    padding-bottom: 74px;
 }
 
 .prospecting-heading {
@@ -177,7 +177,7 @@ u {
 }
 
 .prospecting-card-padding {
-    padding-top: 80px;
+    padding-top: 72px;
     padding-bottom: 16px;
     font-size: 11px;
 }
@@ -764,6 +764,10 @@ u {
         padding-top: 10px;
     }
 
+    .container-main {
+        max-width: 1230px !important;
+    }
+
     .section-2-heading {
         padding-bottom: 5px;
         padding-top: 12px;
@@ -794,10 +798,14 @@ u {
     }
 }
 
-@media (min-width:1300px) {
-    .container-main {
-        max-width: 1200px !important;
+@media (min-width:1200px) {
+    .container {
+        max-width: 1230px !important;
     }
+}
+
+@media (min-width:1300px) {
+
 
     .section-2-subline {
         width: 35%;
